@@ -1,0 +1,80 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>Atreides Movies</name>
+            <path pathversion="1">special://home/userdata/addon_data/plugin.video.atreides/Movies/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Atreides TVShows</name>
+            <path pathversion="1">special://home/userdata/addon_data/plugin.video.atreides/TVShows/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>Special Home</name>
+            <path pathversion="1">special://home/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Maverick Repo</name>
+            <path pathversion="1">http://mavericktv.net/mavrepo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Rising Tides Repo</name>
+            <path pathversion="1">http://mullafabz.xyz/Repository/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Loki Repo</name>
+            <path pathversion="1">http://kodiuk.tv/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Kodihelp Repo</name>
+            <path pathversion="1">http://kodihelp.net/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Skin Backgrounds</name>
+            <path pathversion="1">special://skin/backgrounds/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Tantrum Repo</name>
+            <path pathversion="1">http://tantrumtv.com/download/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Elekta Repo</name>
+            <path pathversion="1">http://elekta.info/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.One Nation Repo</name>
+            <path pathversion="1">http://onenation.info/Repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Terrorize Repo</name>
+            <path pathversion="1">http://kodicustombuilds.com/terrorize_repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>
