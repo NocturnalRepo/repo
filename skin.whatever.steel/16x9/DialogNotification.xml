@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<animation type="WindowOpen" reversible="false">
+		<effect type="slide" start="0,-138" tween="cubic" easing="inout" time="720" />
+	</animation>
+	<animation type="WindowClose" reversible="false">
+		<effect type="slide" end="0,-138" tween="cubic" easing="inout" time="720" />
+	</animation>
+	<controls>
+		<control type="group">
+			<visible>String.IsEmpty(Window(Home).Property(script.cinemavision.running))</visible>
+			<width>1920</width>
+			<control type="image">
+				<left>-20</left>
+				<top>0</top>
+				<width>1960</width>
+				<height>90</height>
+				<align>center</align>
+				<texture>dialogs/default/inner.png</texture>
+			</control>
+			<control type="image" id="400">
+				<top>4</top>
+				<left>20</left>
+				<width>80</width>
+				<height>80</height>
+				<bordertexture border="1,1,2,1">thumbs/panel_border3.png</bordertexture>
+				<bordersize>1,1,2,1</bordersize>
+				<aspectratio>keep</aspectratio>
+			</control>
+			<control type="image">
+				<top>4</top>
+				<left>1820</left>
+				<width>80</width>
+				<height>80</height>
+				<bordertexture border="1,1,2,1">thumbs/panel_border3.png</bordertexture>
+				<bordersize>1,1,2,1</bordersize>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Control.GetLabel(400)]</texture>
+			</control>
+			<control type="fadelabel" id="401">
+				<description>Line 1 Label</description>
+				<left>100</left>
+				<top>0</top>
+				<width>1720</width>
+				<height>40</height>
+				<font>font15_title</font>
+				<textcolor>$VAR[ThemeLabelColor]</textcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+				<textoffsetx>10</textoffsetx>
+				<align>center</align>
+			</control>
+			<control type="fadelabel" id="402">
+				<description>Line 2 Label</description>
+				<left>100</left>
+				<top>40</top>
+				<width>1720</width>
+				<height>40</height>
+				<font>font13_title</font>
+				<textcolor>grey</textcolor>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+				<textoffsetx>10</textoffsetx>
+				<align>center</align>
+			</control>
+		</control>
+	</controls>
+</window>
